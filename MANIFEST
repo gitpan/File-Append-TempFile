@@ -1,0 +1,9 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/File-Append-TempFile.t
+t/File-Append-TempFile-coverage.t
+t/File-Append-TempFile-podcheck.t
+lib/File/Append/TempFile.pm
+META.yml                                 Module meta-data (added by MakeMaker)
