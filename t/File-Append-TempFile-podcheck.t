@@ -1,4 +1,4 @@
-# $Id: File-Append-TempFile-podcheck.t 135 2006-01-27 17:54:46Z roam $
+# $Id: File-Append-TempFile-podcheck.t 231 2006-02-10 15:06:32Z roam $
 # Before `make install' is performed this script should be runnable with
 # `make test'. After `make install' it should work as `perl File-Append-TempFile-coverage.t'
 

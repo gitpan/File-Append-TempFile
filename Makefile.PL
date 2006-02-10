@@ -1,4 +1,4 @@
-# $Id: Makefile.PL 135 2006-01-27 17:54:46Z roam $
+# $Id: Makefile.PL 231 2006-02-10 15:06:32Z roam $
 
 use 5.006;
 use ExtUtils::MakeMaker;
@@ -13,5 +13,5 @@ WriteMakefile(
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/File/Append/TempFile.pm', # retrieve abstract from module
        AUTHOR         => 'Stranger in a strange land <roam@m.ringlet.net>') : ()),
-    realclean         => { FILES => 'testfile.txt*' },
+    clean             => { FILES => 'testfile.txt*' },
 );

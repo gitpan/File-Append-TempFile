@@ -1,6 +1,7 @@
 Changes
 Makefile.PL
 MANIFEST
+MANIFEST.SKIP
 README
 t/File-Append-TempFile.t
 t/File-Append-TempFile-coverage.t
