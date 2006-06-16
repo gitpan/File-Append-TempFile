@@ -1,4 +1,4 @@
-File-Append-TempFile version 0.02
+File-Append-TempFile version 0.04
 =================================
 
 
@@ -7,6 +7,11 @@ data to files using a temporary file, in order to ensure the atomicity of
 the updates.  Care should be taken to ensure that no other applications
 try to modify the original file concurrently, since any changes made while
 appending the data may be lost.
+
+The most recent version of the module should always be available via CPAN,
+and also, along with an unofficial Debian package, at the Ringlet
+development webserver -
+http://devel.ringlet.net/sysutils/file-append-tempfile/
 
 INSTALLATION
 
@@ -30,4 +35,4 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.7 or,
 at your option, any later version of Perl 5 you may have available.
 
-$Id: README 231 2006-02-10 15:06:32Z roam $
+$Ringlet: README 310 2006-02-13 15:22:14Z roam $

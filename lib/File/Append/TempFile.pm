@@ -42,7 +42,7 @@ use Fcntl;
 
 our @ISA = qw();
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 our $debug = 0;
 
@@ -311,7 +311,9 @@ END
 
 =head1 SEE ALSO
 
-Nothing really for the present :)
+The C<File::Append::TempFile> website:
+
+  http://devel.ringlet.net/sysutils/file-append-tempfile/
 
 =head1 BUGS
 
@@ -334,7 +336,7 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.7 or,
 at your option, any later version of Perl 5 you may have available.
 
-$Id: TempFile.pm 231 2006-02-10 15:06:32Z roam $
+$Ringlet: TempFile.pm 313 2006-02-13 15:48:14Z roam $
 
 =cut
 

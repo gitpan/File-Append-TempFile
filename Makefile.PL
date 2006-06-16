@@ -1,4 +1,4 @@
-# $Id: Makefile.PL 231 2006-02-10 15:06:32Z roam $
+# $Ringlet: Makefile.PL 316 2006-02-13 16:23:42Z roam $
 
 use 5.006;
 use ExtUtils::MakeMaker;
@@ -12,6 +12,6 @@ WriteMakefile(
     			}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/File/Append/TempFile.pm', # retrieve abstract from module
-       AUTHOR         => 'Stranger in a strange land <roam@m.ringlet.net>') : ()),
+       AUTHOR         => 'Peter Pentchev <roam@ringlet.net>') : ()),
     clean             => { FILES => 'testfile.txt*' },
 );
