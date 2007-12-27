@@ -1,4 +1,4 @@
-# $Ringlet: Makefile.PL 316 2006-02-13 16:23:42Z roam $
+# $Ringlet: Makefile.PL 1642 2007-12-27 17:00:38Z roam $
 
 use 5.006;
 use ExtUtils::MakeMaker;
@@ -10,8 +10,7 @@ WriteMakefile(
     PREREQ_PM         => {
     				'Test::Pod::Coverage'	=> 1,
     			}, # e.g., Module::Name => 1.1
-    ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
-      (ABSTRACT_FROM  => 'lib/File/Append/TempFile.pm', # retrieve abstract from module
-       AUTHOR         => 'Peter Pentchev <roam@ringlet.net>') : ()),
+    ABSTRACT_FROM  => 'lib/File/Append/TempFile.pm', # retrieve abstract from module
+    AUTHOR         => 'Peter Pentchev <roam@ringlet.net>',
     clean             => { FILES => 'testfile.txt*' },
 );

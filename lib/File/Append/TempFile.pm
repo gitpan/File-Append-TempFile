@@ -42,7 +42,7 @@ use Fcntl;
 
 our @ISA = qw();
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 our $debug = 0;
 
@@ -336,7 +336,7 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.7 or,
 at your option, any later version of Perl 5 you may have available.
 
-$Ringlet: TempFile.pm 313 2006-02-13 15:48:14Z roam $
+$Ringlet: TempFile.pm 1635 2007-12-27 14:06:01Z roam $
 
 =cut
 

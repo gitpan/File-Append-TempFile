@@ -1,4 +1,4 @@
-# $Ringlet: File-Append-TempFile.t 308 2006-02-13 15:18:57Z roam $
+# $Ringlet: File-Append-TempFile.t 1643 2007-12-27 17:01:26Z roam $
 # Before `make install' is performed this script should be runnable with
 # `make test'. After `make install' it should work as `perl File-Append-TempFile.t'
 
@@ -58,9 +58,3 @@ if (defined($ENV{'TEMPFILE_DEBUG'})) {
 	$f->diag(0);
 }
 ok(!$f->diag());
-
-#########################
-
-# Insert your test code below, the Test::More module is use()ed here so read
-# its man page ( perldoc Test::More ) for help writing this test script.
-
